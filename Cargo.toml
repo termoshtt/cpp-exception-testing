@@ -7,3 +7,11 @@ edition = "2021"
 
 [build-dependencies]
 cc = "1.0"
+
+[profile.dev-abort]
+inherits = "dev"
+panic = "abort"
+
+[profile.dev-unwind]
+inherits = "dev"
+panic = "unwind"
