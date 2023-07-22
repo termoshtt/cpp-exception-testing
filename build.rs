@@ -3,5 +3,5 @@ fn main() {
         .cpp(true)
         .file("foo.cpp")
         .cpp_link_stdlib("stdc++") // use libstdc++
-        .compile("libfoo.a");
+        .compile("foo");
 }
